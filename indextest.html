@@ -1,0 +1,163 @@
+<head>
+    <title>Basic Web Test</title>
+    <style>
+        svg{
+            width: 30px;
+            height: 30px;
+        }
+        header{
+            background-image: url(hero-bg.jpg);
+            background-size: cover;
+        }
+        .text-header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .text-header img{
+            width: 131px;
+            height: 31px;
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+        .text-menu{
+            color: white;
+            padding-right: 10px;
+            font-size: 16px;
+        }
+        .text-menu span{
+            margin-right: 16px;
+        }
+        .text-review{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-left: 30px;
+        }
+        .text-review b{
+            font-size: 250%;
+            color: rgb(64, 64, 210);
+            padding-bottom: 20px;
+        }
+        .text-review strong{
+            color: rgb(28, 28, 131);
+            font-size: 250%;
+        }
+        .text-review button{
+            color:blue;
+            padding: 5px 25px;
+            background-color: white;
+            border-radius: 50px;
+            border: 1px solid blue;
+        }
+        .text-input{
+            background-color: white;
+            border: 1px solid white;
+            margin-left: 10%;
+            margin-right: 10%;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        .text-input button{
+            background-color: blue;
+            color: white;
+            border: 1px solid blue;
+
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .information-header{
+            display: flex;
+            height: 20%;
+            margin-top: 30pxd;
+        }
+        .catalog{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .catalog-1{
+            width: 30%;
+            height: 30%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<boddy>
+    <header>
+        <div class="text-header">
+        <img src="logo.png" alt="logo">
+        <div class="text-menu">
+            <span>Login</span>
+            <span> Sign up</span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </span> 
+        </div>
+        </div>
+        <div class="text-review">
+            <p><strong>Modern</strong> <b>Apartment House</b></p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of</p>
+            <button>Read More</button>
+        </div>
+        <div class="text-input">
+            <input type="text" id="catalog" placeholder="Search Your Categories">
+            <input typex="text" id="loccation" placeholder="Location">
+            <button>SEARCH</button>
+        </div>
+    </header>
+    <main>
+        <div class="information-header">
+           <img src="about-img.jpg" alt="about-img">
+           <div class="text-1">
+            <p><b>About Our Apartment</b></p>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button>Read More</button>
+           </div>
+        </div>
+        <div class="Text-2">
+            <p><b>House For Sale</b></p>
+            <p>There are many variations of passages of Lorem Ipsum available, but the</p>
+        </div>
+        <div class="catalog">
+            <div class="catalog-1">
+                <img src="s-1.jpg" alt="s-1">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div class="catalog-1">
+                <img src="s-2.jpg" alt="s-2">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div class="catalog-1">
+                <img src="s-3.jpg" alt="s-3">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div class="catalog-1">
+                <img src="s-4.jpg" alt="s-4">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div class="catalog-1">
+                <img src="s-5.jpg" alt="s-5">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+            <div class="catalog-1">
+                <img src="s-6.jpg" alt="s-6">
+                <p><b>APARTMENTS HOUSE</b></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but</p>
+            </div>
+        </div>
+    </main>
+</boddy>

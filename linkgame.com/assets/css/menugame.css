@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    color: #fff;  
+}
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:#fff;
+}
+.menu-bar ul .logo-bar a{
+    color:rgb(28, 200, 28);
+    font-size: 26px;
+}
+.menu-bar ul .logo-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+.text-bar{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bar-search{
+    display: flex;
+    justify-content: center;
+}
+li #input-bar{
+    width: 150px;
+    height: 22px;
+    font-size: 15px;
+	border-radius: 3px 0 0 3px;
+	border: none;
+    color: #fff;
+
+}
+li button {
+    height:22px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+	vertical-align: middle;
+	font-size: 15px;
+    margin-right: 5px;
+}
+#input-bar:focus, .bar-search button:focus{
+    outline: 0;
+}
+.menu-type{
+    display: none;
+}
+.menu-bar ul li:hover .menu-type{
+    display: block;
+    position: absolute;
+    background-color: rgb(39, 39, 39);
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .menu-type ul{
+    display: block;
+    margin: 5px;
+}
+.menu-bar ul li:hover .menu-type ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(210, 210, 210, 0.2);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .menu-type ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li a:hover{
+    color:rgb(218, 54, 54);
+}
